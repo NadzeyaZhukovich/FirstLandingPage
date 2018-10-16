@@ -9,17 +9,78 @@
 }
 
 html{
-	color: #555;
+	color: rgb(85, 85, 85);
 	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 20px;
 	font-weight: 400;	
 }
+
+/*-------------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*-------------------------------------*/
 
 .row{
 	max-width: 1140px;
 	margin: 0 auto;
 }
 
+/*----- LOGO -----*/
 .logo{
+	margin: 15px;
+	float: right;
+	color: rgb(255, 255, 255);
+	font-size: 100%;
+}
+
+.logoImg{
 	width: 50px;
+	margin-right: 10px;
+}
+
+.logoText{
+	float: right;
+	letter-spacing: 2px;
+	line-height: 15px;
+    padding-top: 10px;
+}
+
+.logoTextLorem{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-family: extra-bold;
+}
+
+.logoTextIpsum{
+	text-transform: uppercase;
+	font-family: italic;
+}
+
+.logoTextEmail{
+	font-size: 50%;
+}
+
+/*-------------------------------------*/
+/*HEADER*/
+/*-------------------------------------*/
+
+header{
+	background-image: url(img/header_backgraund.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 130vh;
+}
+
+.heroTextBox{
+	clear: both;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 150%;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.heroTextBoxRed{
+	color: rgba(255, 0, 0, 0.87);
 }
