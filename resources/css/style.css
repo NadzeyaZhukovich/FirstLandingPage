@@ -68,7 +68,7 @@ header{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 130vh;
+	height: 100vh;
 }
 
 .heroTextBox{
@@ -82,5 +82,29 @@ header{
 }
 
 .heroTextBoxRed{
-	color: rgba(255, 0, 0, 0.87);
+	color: rgb(255, 0, 0);
+}
+
+/*-------------------------------------*/
+/*SEATION ABOUT COMPANY*/
+/*-------------------------------------*/
+
+.aboutCompany{
+	text-align: justify;
+}
+
+.checkSquere{
+	width: 25px;
+	float:left;
+	margin-right: 10px;
+}
+
+.aboutCompanyHeadline{
+	padding: 15px 0;
+	text-transform: uppercase;
+	color: rgb(255, 0, 0);
+}
+
+.workWithUs p{
+	margin-bottom: 10px;
 }
